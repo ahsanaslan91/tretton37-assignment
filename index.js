@@ -6,6 +6,7 @@ const app = express();
 const employeeRoutes = require("./routes/employees");
 
 app.use(cors());
+const path = require("path");
 app.use(express.json());
 
 app.use("/api/employees", employeeRoutes);
