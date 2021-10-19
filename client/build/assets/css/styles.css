@@ -1,0 +1,74 @@
+.header {
+  height: 30vh;
+  align-items: center;
+
+  background: linear-gradient(270deg, #abffe9, #2a8650, #44587d);
+  background-size: 100% 35vh;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.employee-card {
+  height: auto;
+  background: #eaffe7;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.employee-img {
+  height: 230px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.employee-name {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.employee-city {
+  font-size: 14px;
+  text-align: left;
+  color: rgb(126, 126, 126);
+}
+
+.bg-0 {
+  background: rgba(255,255,255,0);
+}
+
+.main-button{
+  height: 70px;
+margin: 0px;
+width: 180px;
+background: #80C565;
+margin-bottom: 50px;
+border-radius: 8px;
+box-shadow: none;
+border-width: 0px;
+font-weight: 700;
+}

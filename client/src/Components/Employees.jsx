@@ -12,7 +12,7 @@ const Employees = (props) => {
 
     const getEmployeesData = async () => {
         var { data } = await axios.get(
-            "https://tretton-assignnment.herokuapp.com/api/employees"
+            "http://localhost:4000/api/employees"
         );
         setEmployees(data);
     };
