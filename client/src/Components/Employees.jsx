@@ -34,9 +34,9 @@ const Employees = (props) => {
                 <h1 className="text-white mt-1 text center"><br />The Fellowship of Tretton37<br /></h1>
             </div>
             <div className="container mt-100">
-                <div className="row">
+                <div id='employees-container' className="row">
                     {employees.slice(0, visible).map((item, index) => (
-                        <div className="col-md-3">
+                        <div id='employee' className="col-md-3">
                             <div className="w-100 employee-card">
                                 <div className="w-100 employee-img" style={{
                                     background:
@@ -59,6 +59,7 @@ const Employees = (props) => {
             </div>
             <div className="w-100 d-flex justify-content-center mt-100">
                 <button
+                    id='load-more'
                     className="main-button"
                     type="button"
                     onClick={() => {
